@@ -1,27 +1,68 @@
 body{
     background-color:#000000;
+    background-image: url("./images/Folderstack.jpg" );
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto; 
+    height: 100vh; 
+    
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+
 h1{
     font-family: 'Old typewriter', sans-serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
+    color: black;
 }
+
 h2{
     font-family: 'Type Keys', sans-serif;
     font-family: 'Type Keys Filled', sans-serif;
 }
 
-a{
-  font-family: 'Old typewriter', sans-serif;
-  font-size: 35px;
-  color: rgb(255, 255, 255);
-}
-
-img{
-    width: 100%;
-    height: auto;
-}
 
 .townpara{
     text-align: center;
+    font-family: 'Old typewriter', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+
+h3{
+    font-family: 'Old typewriter', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+  }
+
+
+.ReeceFolder{
+    width: 380px;
+    height: 35px;
+    font-size: 20px;  
+}
+
+.JohannFolder{
+    width: 380px;
+    height: 25px; 
+}
+.HarlemFolder{
+    width: 380px;
+    height: 35px; 
+}
+.JosephFolder{
+    width: 380px;
+    height: 35px; 
+}
+
+.FernFolder{
+    width: 380px;
+    height: 35px; 
 }
