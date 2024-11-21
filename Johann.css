@@ -8,6 +8,7 @@ h2{
     font-family: 'Type Keys', sans-serif;
     font-family: 'Type Keys Filled', sans-serif;
 }
+
 h3{
     font-family: 'Old typewriter', sans-serif;
     font-size: 35px;
@@ -28,4 +29,8 @@ h3{
 .tapeplayer{
     width: auto;
     height: 50%;
+}
+
+audio{ 
+    display: none;
 }

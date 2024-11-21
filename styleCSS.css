@@ -1,6 +1,6 @@
 body{
     background-color:#000000;
-    background-image: url("./images/Folderstack.jpg" );
+    background-image: url("./images/Backtesk.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -22,10 +22,6 @@ h1{
     color: black;
 }
 
-h2{
-    font-family: 'Type Keys', sans-serif;
-    font-family: 'Type Keys Filled', sans-serif;
-}
 
 
 .townpara{
@@ -43,10 +39,9 @@ h3{
   }
 
 
-.ReeceFolder{
+  .ReeceFolder{
     width: 380px;
-    height: 35px;
-    font-size: 20px;  
+    height: 35px; 
 }
 
 .JohannFolder{
