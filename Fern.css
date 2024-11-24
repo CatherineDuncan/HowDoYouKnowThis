@@ -29,3 +29,7 @@ h3{
     width: auto;
     height: 50%;
 }
+
+audio{ 
+    display: none;
+}
