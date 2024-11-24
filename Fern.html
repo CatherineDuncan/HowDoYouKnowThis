@@ -27,6 +27,16 @@
                 }
             }
         </script></div>
-    <div class="tapeplayer"> <img src="images/tapeplayer.png"></div>
+    <div class="tapeplayer"><img id="startOrStopImg" src="images/tapeplayer.png" alt="Play Button">
+        <audio id="audio" src="FernInterview.mp3" type="audio/mp3" controls>
+        </audio>
+        
+        <script>
+        document.getElementById("startOrStopImg").onclick = function() {
+            var audio = document.getElementById("audio");
+            if (audio.paused) audio.play();
+            else audio.pause();
+        };
+        </script> </div>
 
 <a href="index.html"><h3>Back to Files</h3></a>
